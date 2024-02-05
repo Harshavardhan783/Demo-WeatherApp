@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background:url('https://pbs.twimg.com/media/FyheqiMWIA48g4c?format=jpg&name=4096x4096');
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow:hidden;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#time {
+  font-size: 2rem;
+  color: #e0d7d7f7;
+  margin-bottom: 20px;
+}
+
+#date {
+  font-size: 1.5rem;
+  color: #e0d7d7f7;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2074ab;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #060e06;
+}
+
+.City-n0t-found{
+  font-size: 2rem;
+  color: #e0d7d7f7;
+  margin-bottom: 20px;
+}
+
+
+#current-weather-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.weather-item {
+  text-align: center;
+  color: #e0d7d7f7;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(15, 14, 14, 0.979);
+}
+
+#current-temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e0d7d7f7;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.w-icon {
+  margin-right: 10px;
+}
+
+#weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.weather-forecast-item {
+  text-align: center;
+  color: rgba(254, 245, 245, 0.974);
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.forecast-item {
+  color: #e0d7d7f7;
+  width: 150px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.forecast-details {
+  margin-bottom: 10px;
+}
+
+.w-icon {
+  width: 50px;
+  height: 50px;
+}
